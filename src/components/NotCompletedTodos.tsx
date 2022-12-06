@@ -3,7 +3,7 @@ import { useTodoContext } from "../hooks/useTodoContext";
 import { StateType } from "../models/TodoModel";
 
 const NotCompletedTodos = () => {
-  const todos = useAppSelector((state) => state.todo);
+  const {todos} = useAppSelector((state) => state.todo);
 
   const notCompletedTodos = todos.filter((todo: StateType) => {
     return !todo.completed;

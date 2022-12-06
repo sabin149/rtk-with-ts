@@ -8,7 +8,7 @@ import { useAppDispatch, useAppSelector } from "../hooks/useSelectorODispatch";
 import { StateType } from "../models/TodoModel";
 
 const Home = () => {
-  const todos = useAppSelector((state) => state.todo);
+  const {todos} = useAppSelector((state) => state.todo);
   const dispatch = useAppDispatch();
 
   const [search, setSearch] = useState("");
