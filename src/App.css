@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.btn {
+  margin-left: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.4rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border 0.25s;
+  color: aliceblue;
+}
+.add__btn {
+  background-color: #59d623;
+}
+.show__btn {
+  background-color: #2a9d8f;
+}
+.edit__btn {
+  background-color: #f39108;
+}
+
+.delete__btn,
+.cancel__btn {
+  background-color: #f35a08;
+}
+
+.add__input,
+.search__input,
+.edit__input {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.4rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  transition: border 0.25s;
+  background-color: #f1f1f1;
+}
+.add__input:hover,
+.search__input:hover,
+.edit__input:hover {
+  border: 1px solid #f35a08;
+}
+.add__input {
+  width: 20rem;
+}
+.search__input {
+  width: 12rem;
+}
+
