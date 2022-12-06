@@ -30,7 +30,6 @@ export const todoSlice = createSlice({
     deleteTodo: (state, action: PayloadAction<{ id: number }>) => {
       state.todos = state.todos.filter((todo) => todo.id !== action.payload.id);
     },
-
     updateTodo: (
       state,
       action: PayloadAction<{ id: number; title: string }>

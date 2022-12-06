@@ -1,5 +1,4 @@
 import { useAppSelector } from "../hooks/useSelectorODispatch";
-import { useTodoContext } from "../hooks/useTodoContext";
 import { StateType } from "../models/TodoModel";
 
 const NotCompletedTodos = () => {
